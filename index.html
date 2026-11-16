@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bea León · Centro estético en Puebla de Guzmán</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Pinyon+Script&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--wine:#7a2c3a;--wine-2:#5f1f2c;--rose:#ecc9c6;--bg:#fbf4ee;--ink:#3a1a20;--muted:#7b5f63;--line:#ead9d2;--panel:#f4e4de;--on-wine:#fbf0ea;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#241216;--ink:#f6e8e4;--muted:#c3a6a9;--line:#443036;--panel:#33191f;--wine:#a64759}}
+:root[data-theme="dark"]{--bg:#241216;--ink:#f6e8e4;--muted:#c3a6a9;--line:#443036;--panel:#33191f;--wine:#a64759}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 Jost,system-ui,sans-serif}
+h1,h2,h3{font-family:"Playfair Display",Georgia,serif;font-weight:600;margin:0;line-height:1.1}
+.script{font-family:"Pinyon Script",cursive;font-weight:400}
+a{color:inherit}
+.wrap{max-width:960px;margin:0 auto;padding:0 22px}
+.hero{background:var(--wine-2);color:var(--on-wine);padding:54px 0 66px;position:relative;overflow:hidden}
+.hero .wrap{position:relative;z-index:1}
+.flower{position:absolute;right:-70px;top:-60px;width:320px;opacity:.14}
+.tag{display:inline-block;border:1px solid var(--rose);color:var(--rose);border-radius:999px;padding:5px 16px;font-size:14px;letter-spacing:.08em;margin-bottom:26px}
+.hero .script{font-size:clamp(34px,9vw,52px);color:var(--rose);display:block;margin-bottom:-4px}
+.hero h1{font-size:clamp(52px,14vw,104px);letter-spacing:.01em}
+.hero p{max-width:28em;margin:20px 0 30px;font-size:19px;color:#f1dcd6}
+.btn{display:inline-block;background:var(--rose);color:var(--wine-2);padding:14px 28px;border-radius:999px;text-decoration:none;font:500 17px Jost,sans-serif;border:0;cursor:pointer}
+.btn:hover{background:#f6dcd9}
+.btn.alt{background:var(--wine);color:#fff}
+.btn:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--rose);outline-offset:3px}
+.strip{background:var(--rose);color:var(--wine-2);text-align:center;padding:12px 22px;font-size:15px;letter-spacing:.05em}
+section{padding:58px 0}
+h2{font-size:clamp(32px,6vw,46px);margin-bottom:8px}
+h2 em{font-family:"Pinyon Script",cursive;font-style:normal;font-weight:400;color:var(--wine);font-size:1.15em}
+.lead{color:var(--muted);max-width:34em;margin:0 0 28px}
+.group{display:grid;grid-template-columns:200px 1fr;gap:6px 30px;padding:24px 0;border-top:1px solid var(--line)}
+.group:last-of-type{border-bottom:1px solid var(--line)}
+.group h3{font-size:26px;color:var(--wine)}
+.group ul{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.group li{display:flex;justify-content:space-between;gap:14px}
+.group li span{color:var(--muted)}
+.laser{background:var(--panel);border-radius:22px;padding:34px 24px}
+.zones{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin:22px 0}
+.zone{border-top:3px solid var(--wine);padding-top:12px}
+.zone b{font-family:"Playfair Display",serif;font-size:44px;color:var(--wine);display:block;line-height:1}
+.zone small{color:var(--muted);display:block;margin-top:6px}
+.full{display:flex;flex-wrap:wrap;gap:8px 30px;font-size:18px}
+.field{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-bottom:14px}
+label{display:grid;gap:5px;font-size:15px;color:var(--muted)}
+select,input,textarea{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:11px 12px;width:100%}
+textarea{min-height:80px;resize:vertical;margin-bottom:16px}
+.cols{display:grid;gap:40px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+footer{background:var(--wine-2);color:#e8cfca;text-align:center;padding:34px 22px;font-size:15px}
+footer .script{font-size:38px;color:var(--rose);display:block}
+@media (max-width:640px){.group{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="hero">
+<svg class="flower" viewBox="0 0 100 100" fill="#ecc9c6" aria-hidden="true"><g transform="translate(50 50)"><ellipse rx="9" ry="26" cy="-26"/><ellipse rx="9" ry="26" cy="-26" transform="rotate(72)"/><ellipse rx="9" ry="26" cy="-26" transform="rotate(144)"/><ellipse rx="9" ry="26" cy="-26" transform="rotate(216)"/><ellipse rx="9" ry="26" cy="-26" transform="rotate(288)"/></g></svg>
+<div class="wrap">
+<span class="tag">NUEVO LOCAL EN PUEBLA DE GUZMÁN</span>
+<span class="script">Centro estético</span>
+<h1>Bea León</h1>
+<p>Maquillaje profesional, cejas y pestañas, depilación y cuidado del cuerpo. Un espacio nuevo para sentirte guapa de verdad.</p>
+<a class="btn" href="#cita">Pedir cita por WhatsApp</a>
+</div>
+</header>
+<div class="strip">Abierto de martes a viernes, desde las 10:00 · Calle La Tahona, Puebla de Guzmán</div>
+
+<main>
+<section><div class="wrap">
+<h2>Nuestros <em>tratamientos</em></h2>
+<p class="lead">Todo en un mismo sitio, con productos de calidad y trato cercano.</p>
+<div class="group"><h3>Maquillaje y eventos</h3><ul><li>Maquillaje profesional</li><li>Peluquería para eventos</li><li>Novias, comuniones y fiestas</li></ul></div>
+<div class="group"><h3>Mirada</h3><ul><li>Lifting de pestañas</li><li>Laminado de cejas</li><li>Depilación con hilo</li></ul></div>
+<div class="group"><h3>Cuerpo</h3><ul><li>Maderoterapia reductora</li><li>Bronceado de caña de azúcar</li><li>Aparatología médico-estética</li></ul></div>
+<div class="group"><h3>Manos</h3><ul><li>Manicura rusa</li></ul></div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap"><div class="laser">
+<h2>Depilación láser <em>indolora</em></h2>
+<p class="lead" style="margin-bottom:0">Piel suave, resultados reales y todo el año. Eliges tu zona y listo.</p>
+<div class="zones">
+<div class="zone"><b>9 €</b>Zona S<small>Axilas, entrecejo, nuca, labio, cuello, mentón, línea alba</small></div>
+<div class="zone"><b>19 €</b>Zona M<small>Axilas, ingles, facial completo, perianal, pubis, medios brazos</small></div>
+<div class="zone"><b>29 €</b>Zona L<small>Abdomen, brazos, dorsales, lumbares, pecho, glúteos, medias piernas</small></div>
+</div>
+<div class="full"><span>Cuerpo completo mujer <b>99 €</b></span><span>Cuerpo completo hombre <b>129 €</b></span></div>
+</div></div></section>
+
+<section id="cita" style="padding-top:0"><div class="wrap">
+<h2>Reserva tu <em>cita</em></h2>
+<p class="lead">Elige el tratamiento y se abrirá WhatsApp con el mensaje ya preparado.</p>
+<div class="field">
+<label>Tratamiento
+<select id="trat"><option>Maquillaje profesional</option><option>Peluquería para eventos</option><option>Lifting de pestañas</option><option>Laminado de cejas</option><option>Depilación con hilo</option><option>Depilación láser</option><option>Maderoterapia reductora</option><option>Bronceado de caña de azúcar</option><option>Manicura rusa</option><option>Aparatología médico-estética</option></select></label>
+<label>Día que te viene bien<input id="dia" type="date"></label>
+<label>Tu nombre<input id="nom" type="text" placeholder="Ej. María"></label>
+</div>
+<label>Algo que debamos saber (opcional)<textarea id="nota"></textarea></label>
+<button class="btn alt" id="env" type="button">Enviar por WhatsApp</button>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap cols">
+<div><h2>Dónde <em>estamos</em></h2>
+<p>Calle La Tahona<br>21550 Puebla de Guzmán, Huelva</p>
+<p>Horario: martes a viernes, desde las 10:00</p></div>
+<div><h2>Hablemos</h2>
+<p>WhatsApp y teléfono: <a href="tel:+34621123045">621 12 30 45</a></p>
+<p><a href="https://www.instagram.com/beita_makeup_/">Instagram: @beita_makeup_</a></p></div>
+</div></section>
+</main>
+
+<footer><span class="script">Bea León</span>Centro estético · Puebla de Guzmán<br><small>Boceto de diseño web por Pablo Rodríguez</small></footer>
+
+<script>
+document.getElementById("env").addEventListener("click",function(){
+var n=document.getElementById("nom").value.trim(),d=document.getElementById("dia").value,x=document.getElementById("nota").value.trim();
+var m="Hola Bea, soy "+(n||"una clienta")+". Me gustaría pedir cita para: "+document.getElementById("trat").value+".";
+if(d)m+=" Me vendría bien el "+d.split("-").reverse().join("/")+".";
+if(x)m+=" "+x;
+location.href="https://wa.me/34621123045?text="+encodeURIComponent(m)});
+</script>
+</body>
+</html>
